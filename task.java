@@ -43,5 +43,4 @@ public class Task extends JPanel {
 
     this.add(done,BorderLayout.EAST);
  }
-}  
-  
+}
