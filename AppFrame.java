@@ -20,6 +20,8 @@ public class AppFrame extends JFrame{
     	 btnPannel = new ButtonPannel();
     	 this.add(title,BorderLayout.NORTH);
     	 this.add(btnPannel, BorderLayout.SOUTH);
+
+		this.add(list,BorderLayout.CENTER);
     	 
      }
 }
