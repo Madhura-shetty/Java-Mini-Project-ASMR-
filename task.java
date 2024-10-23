@@ -42,4 +42,6 @@ public class Task extends JPanel {
     done.setBorder(BorderFactory.createEmptyBorder());
 
     this.add(done,BorderLayout.EAST);
-}
+ }
+}  
+  
