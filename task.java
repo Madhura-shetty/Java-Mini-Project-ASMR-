@@ -19,13 +19,27 @@ public class Task extends JPanel {
   //constructor
   Task()
   {
-    this.setPreferredsize(new Dimension(40,20));
+    this.setPreferredSize(new Dimension(40,20));
     this.setBackground(Color.red);
 
     this.setLayout(new BorderLayout()):
 
       checked = false;
 
-    index = new JLabel()
+    index = new JLabel(**);
+    index.setPreferredSize(new Dimension(20,20));
+    index.setHorizontalAlignment(JLabel.CENTER);
+    this.add(index,BorderLayout.WEST);
 
+    taskName = new JTextfield("Your task here");
+    taskName.setBorder(BorderFactory.createEmptyBorder());
+    taskNmae.setBackground(Color.red);
+
+    this.add(taskName,BorderLayout.CENTER);
+
+    done = new JButton("done");
+    done.setPreferredSize(new Dimension(40,20));
+    done.setBorder(BorderFactory.createEmptyBorder());
+
+    this.add(done,BorderLayout.EAST);
 }
