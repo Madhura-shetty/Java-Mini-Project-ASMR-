@@ -45,7 +45,3 @@ This project was developed as a mini project to practice **Java programming, obj
 * Add task deadlines and reminders
 * Improve the user interface
 * Add database support
-
-## Author
-
-Madhura Shetty
